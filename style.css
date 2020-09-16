@@ -1,0 +1,63 @@
+.test{
+    width: 1500px; 
+}
+.test:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.test div{
+    border: 1px solid #fff;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+/*-------------------EXO1-----------*/
+.exo1 div:nth-child(3n+1){
+    background: #FF7100; 
+}
+.exo1 div:nth-child(3n+2){
+    background: #FFB173; 
+}
+.exo1 div:nth-child(3n+3){
+    background: #A64A00; 
+}
+/*-------------------------EXO2-----------------*/
+.exo2 div:nth-child(4n+1){
+    background: #ccc; 
+}
+.exo2 div:nth-child(4n+2){
+    background: #999; 
+}
+.exo2 div:nth-child(4n+3){
+    background: #666; 
+}
+.exo2 div:nth-child(4n+4){
+    background: #333; 
+}
+
+/*-------------------------EXO3-----------------*/
+.exo3{
+    width: 1480px;
+    height: 500px;
+    background-color: #e66464;
+    background-image: linear-gradient(to right, transparent 50%, rgba(255, 255, 255, 0.5) 50%),
+    linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+    background-size: 50px 50px;    
+}
+
+
+.exo4{
+    width: 1480px;
+    height: 500px;
+    background: 
+    linear-gradient(30deg, black 12%, transparent 12.5%, transparent 87%, blue 87.5%, blue 0), 
+    linear-gradient(150deg, black 12%, transparent 12.5%, transparent 87%, blue 87.5%, blue 0), 
+    linear-gradient(30deg, black 12%, transparent 12.5%, transparent 87%, blue 87.5%, blue 0), 
+    linear-gradient(150deg, black 12%, transparent 12.5%, transparent 87%, blue 87.5%, blue 0), 
+    linear-gradient(60deg, brown 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, red 0), 
+    linear-gradient(60deg, brown 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, red 0), yellow;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    background-size: 80px 140px;
+}
